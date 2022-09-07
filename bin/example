@@ -1,0 +1,20 @@
+scopy 'https://control.akamai.com/web-security-analytics-be/v1/dimension/attackType?accountid=15Q-MPF&configid=40102&email=sbadusa@akamai.com&source=WSA&startTime=1657955287272&endTime=1658041687272&evalMode=false&useSlowChewbacca=false&view=1dim&mode=static&isBotAnalysis=false&filtermode=request&limit=250' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: en-US,en;q=0.9,he;q=0.8' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Cookie: _ga=GA1.2.843757082.1657001821; BubbleDomainCookie=Q0qVLq4%2B7zNzQgaC6tSbA9Q6usXfSIDL%2FQrD%2BMw2pgw89fPG4vkTP94o67vGaleASorRXmtuc8ek8hGYEx0%2FWlTn%2BPoSunsO3ugjvfVm48JIY%2FzS1CB%2BU3Z5ZsCNe6mddAIjOyuT%2F2HcZHxbx8gZf80euXiCKG5nHE3U5XOiYFsCIKq%2BViF1oMZYQEABo7Xx; AKALASTMANAGEDACCOUNT=SUtFQSBJVCBBQl9EaXJlY3QgQ3VzdG9tZXJ+fjE1US1NUEY=; AKAGROUP=MjQ1MTE=; AKASSO=ZTY1YmM0ODEtZjc2Mi00OWY1LWJkNDItMTdiZjk4ZmE5OTBi; XSRF-TOKEN=ODkwZjU2NWEtNzljNy00ZjM2LTg0ZWUtOTcwOTQ2Yzk3MWVm; AKATOKEN=dG9rZW5fRVpDOjE6QUVTL0dDTS9QS0NTNVBhZGRpbmc6b2lRTkFickVXZXBFWGxaWWQ0TENZdz09LDEyODqeYFf64SlyuUU/LlddRRmA/Um3lEs7nAiBR8aBJRU/jIYrkf3TMkUO2lMImtbqGKOhTws1; __spx_edge_token=exp=1658103046~acl=/*~hmac=643f3913d3849f40f3b58d4ef56475e594c6ecd9f518e149b77091108c43875e; ak_bmsc=EABAC0A8C0B39C9B20856267FC239520~000000000000000000000000000000~YAAQulozuE5sR++BAQAAgdZrCxDjtImQUByAymsCGivNyyapLr6eGwqNOiCbcD+Ra3eVFe9JX0RBWGbFlp+h1c+Liy3xereb+2fXmhCYTgqxks+Z5Dkt280gDARpcpY8k8eTE0OS7L5gua3mfqTf7JKL0INiBojNLmPDxJP2z7j1dkSlSirMvLPN+bzMyH2Q6/STp5tVsbbsEoDjKbgz5g1yAfzc7+5wlKoVUiSptn4gBpxwse+4VwVSZTFEJj9C2OwVtESRRurr7wZtJ1jqXGorS0pcprVm6dymZnmm6wYU4L0rFcs/QwEqRr6m/Yfholkf0wlhQaKyfOcGJ0EnlsfpUpzBRUUy4lkTnKOPjv45CXhIk+aIUJcyWeVnXM4QFT5hJyB5mzWX; RT="z=1&dm=control.akamai.com&si=59f893e7-0b1a-4c6d-b463-d8918d20f029&ss=l5p0i2x3&sl=0&tt=0&bcn=%2F%2F684d0d41.akstat.io%2F"; _gat=1; bm_sv=33948779A780F6A67D3FE0B4BF73C964~YAAQulozuP5sR++BAQAArulrCxDo6ob48gOu2ziiKQq70QogLkyrepA4W7eL2cfxk3PHzk5jCcRJI/+3DWYMRZ6jPWrpqnpm95llM2fJTnSgAqHNSdDKiZ8prhwPN8gU415nyRhlqkDdRbppZKcj0IWLPlTkE+EDdwQPmha/QxAAVT1qMiktHyPly84OC8ojkjfxJAJilpHCfijXb0tQxCUx2mjFKLv7FieOUMhKjeFPEvrYz/AFP9PZLJK6p8RD~1' \
+  -H 'Origin: https://control.akamai.com' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: https://control.akamai.com/apps/securitycenter/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36' \
+  -H 'X-XSRF-TOKEN: ODkwZjU2NWEtNzljNy00ZjM2LTg0ZWUtOTcwOTQ2Yzk3MWVm' \
+  -H 'sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  --data-raw 'endTimeSec=1658041687272&startTimeSec=1657955287272&wafConfiguration=40102&contractTypeId=1-2RBL&applyByRequest=true&accountName=IKEA%20IT%20AB&evalMode=false&wafName=AKACDN%20Automation&useSlowChewbacca=false&requestId=3ef12b9a-7971-4945-b210-a874588700e9&isBotAnalysis=false&limit=250&filter=%5B%5D' \
+  --compressed
